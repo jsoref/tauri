@@ -1813,7 +1813,7 @@
           "type": "boolean"
         },
         "unmaximize": {
-          "description": "Allows unmaximizing the window.",
+          "description": "Allows restoring the window.",
           "default": false,
           "type": "boolean"
         },

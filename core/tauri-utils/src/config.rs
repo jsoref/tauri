@@ -1269,7 +1269,7 @@ pub struct WindowAllowlistConfig {
   /// Allows maximizing the window.
   #[serde(default)]
   pub maximize: bool,
-  /// Allows unmaximizing the window.
+  /// Allows restoring the window.
   #[serde(default)]
   pub unmaximize: bool,
   /// Allows minimizing the window.
