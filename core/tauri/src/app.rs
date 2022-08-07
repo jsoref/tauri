@@ -609,7 +609,7 @@ macro_rules! shared_app_impl {
 
       #[cfg(all(desktop, feature = "system-tray"))]
       #[cfg_attr(doc_cfg, doc(cfg(feature = "system-tray")))]
-      /// Gets a handle handle to the system tray.
+      /// Gets a handle to the system tray.
       pub fn tray_handle(&self) -> tray::SystemTrayHandle<R> {
         self
           .tray_handle
